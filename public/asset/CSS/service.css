@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#header{
+    height:100vh;
+    background-image: url(images/p18.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.header-text{
+    max-width: 350px;
+    margin-top: 50px;
+
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height:12px;
+    width:12px;
+    display:inline-block;
+    background: #f67c92;
+    margin:15px 0;
+}
+.common-btn{
+    padding:18px 40px;
+    background: transparent;
+    outline:none;
+    border:2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color:#777;
+
+}
+.header-text button{
+    margin-top:20px;
+    margin-bottom:60px;
+}
+.line-1{
+    height:15px;
+    width:15px;
+    display:inline-block;
+   background: #f67c92;
+}
+.line-2{
+    height:1px;
+    width:80px;
+    display:inline-block;
+   background: #f67c92;
+}
+.line-3{
+    height:1px;
+    width:60px;
+    display:inline-block;
+   background: #f67c92;
+}
+.line{
+    line-height: 8px;
+}
+#about,#offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-collum{
+    flex-basis: 50%;
+}
+.about-left-collum img{
+    width: 100%;
+   
+}
+.about-right-collum{
+    flex-basis: 50%;
+    text-align:right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin:50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-style:italic;
+    color:#797979;
+}
+#courses{
+    padding:100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .course-right-col{
+        flex-basis: 50%;
+    }
+    .course-right-col img{
+        width: 100%;
+    }
+    .course-left-col{
+        flex-basis: 50%;
+    }
+.course-text{
+    max-width: 350px;
+} 
+.course-text button{
+    margin:30px 0;
+} 
+hr{
+    width:100%;
+   border:0;
+    border-top: 1px solid #f67c92;
+}
+#footer{
+    padding: 50px 0 30px;
+    }

@@ -1,0 +1,17 @@
+.rows{
+    margin-top: 15%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+h2{
+    font-weight: bold;
+    color: darkcyan;
+}
+.label1{
+    font-weight: bold; 
+    color: coral;
+}
+.radio-inline{
+    color:black;
+    font-weight: bold;
+}
